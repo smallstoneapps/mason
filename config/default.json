@@ -1,0 +1,26 @@
+{
+  "firebase": {
+    "authToken": "FIREBASE_AUTH_TOKEN",
+    "url": "http://insert-firebase-url-here"
+  },
+  "misc": {
+    "maxDownloadSize": 1073741824,
+    "defaultUserToken": "USER_TOKEN",
+    "buildFolder": "BUILD_FOLDER"
+  },
+  "kue": {
+    "port": 8001
+  },
+  "express": {
+    "port": 8000
+  },
+  "aws": {
+    "s3Bucket": "S3_BUCKET_NAME",
+    "configFile": "./config/aws.json"
+  },
+  "stathat": {
+    "prefix": "STATHAT_PREFIX",
+    "enabled": false,
+    "email": "STATHAT_EMAIL"
+  }
+}

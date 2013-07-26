@@ -11,4 +11,11 @@ pids
 logs
 results
 
+config/aws.json
+config/production.json
+config/runtime.json
+
+
+node_modules/
+
 npm-debug.log
