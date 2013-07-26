@@ -42,7 +42,7 @@ _.each(PebbleSdkVersions, function (version) {
 // Kue Code
 
 var workerQueue = kue.createQueue();
-kue.app.listen(8001);
+kue.app.listen(config.kue.port);
 
 workerQueue.process('download', function (job, done) {
   var id = job.data.id;
