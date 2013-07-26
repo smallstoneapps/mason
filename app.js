@@ -261,7 +261,7 @@ function isValidBuildInfo(info) {
   if (! info.userToken) {
     return 'Missing "userToken".';
   }
-  if (info.userToken !== 'P7S1bAKN24Tnq3pE') {
+  if (info.userToken !== config.misc.defaultUserToken) {
     return 'Invalid userToken "' + userToken + '".';
   }
   // Validate app name.
